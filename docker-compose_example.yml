@@ -24,7 +24,6 @@ services:
     ports:
       - "127.0.0.3:8888:8888"
       - "127.0.0.3:8000:8000"
-    command: ["./src/rest.py"]
   neo4j:
     build: 
       context: .
