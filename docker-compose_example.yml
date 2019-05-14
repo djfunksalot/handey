@@ -12,6 +12,7 @@ services:
     ports:
       - "127.0.0.2:8888:8888"
       - "127.0.0.2:8000:8000"
+    command: ["./src/rest.py"]
   gpt-cpu:
     build: 
       context: .
