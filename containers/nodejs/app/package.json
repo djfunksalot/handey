@@ -1,0 +1,14 @@
+{
+    "name": "bobber",
+    "description": "data beacon",
+    "version": "0.0.2",
+    "private": true,
+    "dependencies": {
+        "restify": "4.x",
+        "qs": "x",
+        "neo4j-driver": "x"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
